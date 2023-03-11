@@ -1,0 +1,342 @@
+body {
+    font-family: "Oswald";
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Nav Bar */
+
+#nav {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#logo {
+    width: 130px;
+    height: 130px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* botões da nav bar*/
+.botao-da-nav {
+    background-color: #24c48900;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    justify-content: center;
+    margin-top: 1.2em;
+    font-size: larger;
+    font-family: 'Oswald';
+    cursor: pointer;
+}
+
+.botao-da-nav:hover {
+    color: rgba(182, 13, 182, 0.952);
+    transition: 0.5s;
+}
+
+
+.servicobtn {
+    background-color: #24c48900;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-size: larger;
+    margin-top: 1.2em;
+    font-family: 'Oswald';
+    cursor: pointer;
+}
+
+.servicobtn:hover {
+    color: rgba(182, 13, 182, 0.952);
+    transition: 0.5s;
+}
+
+.servico {
+    position: relative;
+    display: inline-block;
+}
+
+.servico-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.servico-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.servico-content a:hover {
+    background-color: #ddd;
+}
+
+.servico:hover .servico-content {
+    display: block;
+}
+
+/* banner */
+/* texto acompanhado de botão  */
+
+#div-principal {
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-geral {
+    height: 26em;
+    width: 23em;
+    margin-top: 3.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: left;
+    color: #8e4ba2;
+    font-family: "Oswald";
+}
+
+#botao-do-banner {
+    height: 4rem;
+    width: 18rem;
+    color: #8e4ba2;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: transparent !important;
+    border-color: #8e4ba2 !important;
+    cursor: pointer;
+    font-family: "Oswald" !important;
+    margin-top: .7em;
+}
+
+#botao-do-banner:hover {
+    color: #fff;
+    background-color: #8e4ba2 !important;
+    transition: 0.5s;
+}
+
+/* imagem do banner */
+
+#imagem-do-banner {
+    height: 345px;
+    width: 340px;
+    background-color: rgba(236, 104, 207, 0.74);
+    margin-top: 8em;
+    margin-left: 10em;
+    border-radius: 50% 50% 52% 48% / 50% 51% 49% 50%;
+}
+
+#foto-do-banner {
+    height: 20em;
+    width: 24em;
+    margin-top: .5em;
+    border-radius: 50px;
+}
+
+/* segunda página */
+
+#sobre {
+    height: 45em;
+    margin-top: 3.2em;
+    background-color: #8e4ba2;
+    justify-content: center;
+    display: flexbox;
+
+}
+
+/* título do sobre */
+#texto-sobre {
+    color: #fff;
+    margin-top: 12em;
+    padding-top: 2em;
+    margin-left: 45vw;
+    font-size: large;
+}
+
+#subtitulo-sobre {
+    color: #fff;
+    font-family: "Oswald";
+    margin-top: 1em;
+    margin-left: 43vw;
+}
+
+#paragrafo-sobre {
+    margin-top: 0.6em;
+    margin-left: 30vw;
+    color: #fff;
+}
+
+#imagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 6em;
+}
+
+.imagem-sobre {
+    background-color: aqua;
+    width: 285px;
+    height: 290px;
+    border-radius: 50% 50% 52% 48% / 50% 51% 49% 50%;
+}
+
+#contato {
+    background-color: aqua;
+    height: 45em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartao-contato {
+    height: 40em;
+    width: 60vw;
+    background-color: #fff;
+    padding: 0.3rem;
+    display: flex;
+}
+
+#lado-esquerdo-contato {
+    height: 40em;
+    width: 30vw;
+    display: list-item;
+    list-style: none;
+
+    background-color: rgb(208, 255, 0);
+}
+
+#lado-direito-contato{
+    height: 40em;
+    width: 30vw;
+    justify-content: center;
+}
+
+#contato-logo {
+    margin-left: 2.3rem;
+    display: flex;
+    height: 12em;
+    width: 23vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.minilogo-contato {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 1rem;
+    justify-content: space-around;
+    padding-right: 1rem;
+
+}
+
+#botoes-da-logo {
+    list-style: none;
+    font-size: 1.6rem;
+    font-family: 'Oswald';
+}
+
+#botao-do-contato {
+    height: 4rem;
+    width: 18rem;
+    color: #8e4ba2;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: transparent !important;
+    border-color: #8e4ba2 !important;
+    cursor: pointer;
+    font-family: "Oswald" !important;
+    margin-top: .7em;
+}
+
+#botao-do-contato:hover {
+    color: #fff;
+    background-color: #8e4ba2 !important;
+    transition: 0.5s;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(180deg, #8915D1 0%, #350852 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo-text,
+.footer-links {
+    margin-top: 2.1rem;
+}
+
+.logo-text p {
+    color: #F4E9EDBF;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links .copy {
+    display: flex;
+    position: relative;
+    width: 222px;
+    height: 18px;
+    text-align: center;
+}
+
+.footer-lista {
+    list-style: none;
+}
+
+.footer-lista li {
+    color: #F4E9EDBF;
+    margin-bottom: 0.8rem;
+}
+
+.footer-lista p span {
+    color: white;
+}
+
+#footer-servicos {
+    margin-right: 5.1rem;
+}
+
+#footer-endereco {
+    margin-left: 5.1rem;
+}
+
+
+/* SCROLL */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(115, 30, 141);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 35px;
+    background-color: rgb(195, 119, 218);
+
+}
