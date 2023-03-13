@@ -14,35 +14,38 @@
 
 <body>
     <!-- Nav Bar -->
-    <nav id="nav">
-        <div>
-            <a href="index.html"><button class="botao-da-nav">Início</button></a>
-            <a href="#sobre"><button class="botao-da-nav">Sobre</button></a>
-            <a href="#contato"><button class="botao-da-nav">Contato</button></a>
-        </div>
-        <img id="logo" src="./src/image/logo-navbar.png" alt="logo">
-        <div class="servico">
-            <button class="servicobtn">Estética</button>
-            <div class="servico-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
+    <header>
+        <nav id="nav">
+            <div class="nav-esq">
+                <a href="index.html"><button class="botao-da-nav">INÍCIO</button></a>
+                <a href="#sobre"><button class="botao-da-nav">SOBRE</button></a>
+                <a href="#contato"><button class="botao-da-nav">CONTATO</button></a>
             </div>
-        </div>
-        <div class="servico">
-            <button class="servicobtn">Terapia</button>
-            <div class="servico-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
+            <img id="logo" src="./src/image/logo-navbar.png" alt="logo">
+            <div class="nav-dir">
+                <a href="#"><button class="botao-da-nav">PILATES</button></a>
             </div>
-        </div>
-        <div>
-            <a href="#"><button class="botao-da-nav">Pilates</button></a>
-        </div>
-    </nav>
+            <div class="servico">
+                <a href="estetica.html"><button class="servicobtn">ESTÉTICA</a></button>
+                <div class="servico-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+            <div class="servico">
+                <a href="terapia.html"><button class="servicobtn">TERAPIA</button></a>
+                <div class="servico-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 
     <!-- banner inicial -->
     <div id="div-principal">
@@ -93,25 +96,24 @@
                 <div>
                     <img id="contato-logo" src="src/image/logo-contato.png" alt="">
                 </div>
-                <div>
+                <div >
                     <ul id="botoes-da-logo">
-                        <li> <img class="minilogo-contato" src="src/image/instagram-icon.png" alt=""> @movimentfitrj
+                        <li> <img class="minilogo-contato" src="src/image/instagram-icon.png" alt="">  @movimentfitrj
                         </li>
-                        <li> <img class="minilogo-contato" src="src/image/whatsapp-icon.png" alt=""> +55 (21) 97262-3014
+                        <li> <img class="minilogo-contato" src="src/image/whatsapp-icon.png" alt=""> +55 (21) 97262-3014 
                         </li>
                         <li> <img class="minilogo-contato" src="src/image/email-icon.png" alt="">
-                            draelaine.ramos@hotmail.com </li>
-                        <li> <img class="minilogo-contato" src="src/image/mapa-icon.png" alt=""> R. Silva Cardoso, 1169
-                            - Bangu </li>
+                            draelaine.ramos@hotmail.com  </li>
+                           <li> <img class="minilogo-contato" src="src/image/mapa-icon.png" alt=""> R. Silva Cardoso, 1169
+                            - Bangu  </li> 
                     </ul>
                     <a href=""><button id="botao-do-contato"> ENTRE EM CONTATO! </button></a>
                 </div>
+                    
             </div>
             <div id="lado-direito-contato">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.732826455241!2d-43.46551198540083!3d-22.886325942894135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdfbfe74ccc65%3A0x22fe8071d5beacfe!2sR.%20Silva%20Cardoso%2C%201169%20-%20Bangu%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021815-071!5e0!3m2!1spt-BR!2sbr!4v1678562476734!5m2!1spt-BR!2sbr"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.7326926168917!2d-43.465517349915444!3d-22.88633088494861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdfbfe74ccc65%3A0x22fe8071d5beacfe!2sR.%20Silva%20Cardoso%2C%201169%20-%20Bangu%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021815-071!5e0!3m2!1spt-BR!2sbr!4v1678739857202!5m2!1spt-BR!2sbr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -126,20 +128,26 @@
                     tenetur
                     commodi omnis odit reiciendis.</p>
             </div>
+            <div class="copy">
+                <p>Copyright © Moviment Fit 2022</p>
+            </div>
             <div class="footer-links">
                 <ul class="footer-lista" id="footer-servicos">
                     <p><span>Serviços</span></p>
-                    <li>Estética</li>
-                    <li>Terapias</li>
-                    <li>Pilates</li>
+                    <a href="estetica.html">
+                        <li>Estética</li>
+                    </a>
+                    <a href="terapia.html">
+                        <li>Terapias</li>
+                    </a>
+                    <a href="pilates.html">
+                        <li>Pilates</li>
+                    </a>
                 </ul>
                 <ul class="footer-lista" id="footer-endereco">
                     <p><span>Endereço</span></p>
                     <li>R. Silva Cardoso, 1169 - <br>Bangu, Rio de Janeiro - <br>RJ, 21815-071</li>
                 </ul>
-                <div class="copy">
-                    <p>Copyright © Moviment Fit 2022</p>
-                </div>
             </div>
         </div>
     </footer>
